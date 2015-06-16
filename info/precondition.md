@@ -1,5 +1,3 @@
 **Precondition:**
 
-```python
-0 < len(data) < 1000
-```
+`0 < |data| < 1000`
