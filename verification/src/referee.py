@@ -10,3 +10,7 @@ class Referee(RefereeRank):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "non_unique"
+    FUNCTION_NAMES = {
+        "python_3": "non_unique",
+        "js_node": "nonUnique"
+    }
